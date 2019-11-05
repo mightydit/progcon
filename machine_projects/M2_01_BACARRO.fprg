@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-05 10:29:13 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLVNKUkU3Q0g7MjAxOS0xMC0yOTsxMDoxOToxMyBBTTsyNzU2"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLVNKUkU3Q0g7MjAxOS0xMC0yOTsxMTowMToxMyBBTTsyOzI4NTc="/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLU9TMTBNSjY7MjAxOS0xMS0wNTsxMDoyOToxMyBBTTsxOzI4MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;welcome, we will compute for the area of the circle&quot;" newline="True"/>
+            <declare name="Radius" type="Integer" array="False" size=""/>
+            <declare name="Diameter" type="Integer" array="False" size=""/>
+            <declare name="Area" type="Integer" array="False" size=""/>
+            <declare name="Answer" type="String" array="False" size=""/>
+            <output expression="&quot;Please enter Radius or Diameter&quot;" newline="True"/>
+            <input variable="Answer"/>
+            <if expression="Answer=&quot;Radius&quot;">
+                <then>
+                    <output expression="&quot;Please input the value of Radius&quot;" newline="True"/>
+                    <input variable="Radius"/>
+                    <assign variable="Area" expression="3.14* Radius^2"/>
+                    <output expression="Area" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Answer==&quot;Diameter&quot;">
+                        <then>
+                            <output expression="&quot;Please input the value of diameter&quot;" newline="True"/>
+                            <input variable="Diameter"/>
+                            <assign variable="Area" expression="3.14*Diameter/2"/>
+                            <assign variable="Area" expression="Area^2"/>
+                            <output expression="Area" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <do expression=""/>
+        </body>
+    </function>
+</flowgorithm>
