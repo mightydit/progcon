@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-05 10:13:03 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLVNKUkU3Q0g7MjAxOS0xMC0yOTswOTo0NjozOSBBTTsyNzcy"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLVNKUkU3Q0g7MjAxOS0xMC0yOTsxMDoxODoxOCBBTTsyOzI4Njk="/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLU9TMTBNSjY7MjAxOS0xMS0wNTsxMDoxMzowMyBBTTsxOzI4MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hi plese input 2 numbers&quot;" newline="True"/>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="Sum" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <assign variable="Sum" expression="num1+num2"/>
+            <output expression="Sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
