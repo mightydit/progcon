@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-12 10:50:59 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLVNSRUdKNTE7MjAxOS0xMC0yNTsxMDoxODo0OSBBTTsyNzM5"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLVNSRUdKNTE7MjAxOS0xMC0yNTsxMDozNDoxMiBBTTsxOzI4MzU="/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLVNWOTNQSE07MjAxOS0xMC0yOTsxMDo0OToyMCBBTTs1OzI4NzM="/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLVNJUFRQSTI7MjAxOS0xMS0wNTsxMDo0MToxOCBBTTsyOzI4ODE="/>
+        <attribute name="edited" value="UmFtcztMQUIzMTRDMTI7MjAxOS0xMS0xMjsxMDo1MDo1OSBBTTsyOzIzMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot; This is a program that identifies ODD or EVEN numbers&quot;" newline="True"/>
+            <declare name="Number" type="Integer" array="False" size=""/>
+            <declare name="oddoreven" type="Integer" array="False" size=""/>
+            <declare name="ExitCode" type="Boolean" array="False" size=""/>
+            <assign variable="ExitCode" expression="True"/>
+            <while expression="ExitCode == True">
+                <output expression="&quot;Please enter a number&quot;" newline="True"/>
+                <input variable="Number"/>
+                <assign variable="oddoreven" expression="Number %  2"/>
+                <if expression="oddoreven == 0">
+                    <then>
+                        <output expression="number &amp; &quot; is even&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="number &amp; &quot; is odd&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Input another number?&quot;" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
