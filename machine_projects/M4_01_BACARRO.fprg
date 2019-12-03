@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-29 10:46:56 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMTRDMTk7MjAxOS0xMS0yOTswOTozMzowNyBBTTsyMjEx"/>
+        <attribute name="edited" value="UmFtcztMQUIzMTRDMTk7MjAxOS0xMS0yOTsxMDowMToyNSBBTTsxOzIzMDY="/>
+        <attribute name="edited" value="UmFtcztMQUIzMTRDMjA7MjAxOS0xMS0yOTsxMDo0Njo1NiBBTTsyOzIzMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hey! Do you want to know what your grade equivalent is?&quot;" newline="True"/>
+            <output expression="&quot;Please input your Grade&quot;" newline="True"/>
+            <declare name="Num1" type="Integer" array="False" size=""/>
+            <input variable="Num1"/>
+            <if expression="Num1&gt;94">
+                <then>
+                    <output expression="&quot;Kwarto! Kwartro! Kwatro!&quot;" newline="True"/>
+                    <output expression="&quot;Good Job bruh! New shoes comin' up!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Num1&gt;90">
+                        <then>
+                            <output expression="&quot;3.5&quot;" newline="True"/>
+                            <output expression="&quot;If only hindi ka sumama sa 1 gala 4.0 ka na sana&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Num1&gt;86">
+                                <then>
+                                    <output expression="&quot;Congrats you have a grade of 3.0&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="Num1&gt;82">
+                                        <then>
+                                            <output expression="&quot;2.5&quot;" newline="True"/>
+                                            <output expression="&quot;Come on! I know you can do better!&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="Num1&gt;78">
+                                                <then>
+                                                    <output expression="&quot;2.0&quot;" newline="True"/>
+                                                    <output expression="&quot;Kaya mo yan. Aral ka kasi minsan&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="Num1&gt;74">
+                                                        <then>
+                                                            <output expression="&quot;1.5&quot;" newline="True"/>
+                                                            <output expression="&quot;Magsipag ka na baka next time R ka na&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="Num1&gt;69">
+                                                                <then>
+                                                                    <output expression="&quot;Ohhh! hangin in there!&quot;" newline="True"/>
+                                                                    <output expression="&quot;You got 1.0&quot;" newline="False"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="Num1&lt;69">
+                                                                        <then>
+                                                                            <output expression="&quot;R&quot;" newline="True"/>
+                                                                            <output expression="&quot;Go study and make bawi&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
